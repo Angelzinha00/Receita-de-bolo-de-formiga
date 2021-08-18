@@ -1,0 +1,200 @@
+@charset "utf-8";
+@font-face{
+
+    font-family: 'JasmineEstella' ;
+    src: url('../fontes/JasmineEstella.ttf');
+}
+@font-face{
+
+    font-family: 'HolidayInParis';
+    src: url(../fontes/Maybe\ Yes\ Font\ by\ 7NTypes.otf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body{
+
+    background-color: rgba(245, 158, 211, 0.774);
+}
+header#cabecalho{
+    background:url('../imagens/cozinha2.jpg') no-repeat;
+    width: 1300px;
+    height: 170px;
+    box-shadow: 0px 0px 10px rgba(255, 20, 145, 0.295);
+    left: 100;
+    display: block;
+    padding: 10px;
+}
+h1#logo {
+
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    font-size: 50px;
+    font-family: 'JasmineEstella', sans-serif;
+    color: white;
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.904);
+
+}
+nav#menu{
+
+    display:block;
+}
+nav#menu ul{
+
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 130px;
+    left: 630px;
+}
+nav#menu li{
+
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    padding: 9px;
+    margin: 2px;
+    transition: background-color 1s;
+    transition: color 0s;
+
+}
+nav#menu li:hover{
+
+    color: rgb(255, 255, 255);
+    background-color:  rgb(215, 81, 248)
+}
+nav#menu ul a{
+
+    text-decoration: none;
+    color: black;
+}
+div#interface{
+    background: rgb(222, 126, 231);
+    width: 1000px;
+    padding: 10px;
+    margin: 10px auto 10px auto;
+    color: floralwhite;
+    box-shadow:0px 2px 8px rgba(199, 12, 183, 0.623);
+   
+}
+div#interface h1 {
+
+    font-size: 70px;
+    font-family: 'HolidayInParis';
+    text-shadow: 0px 0px 8px rgb(248, 3, 248);
+    
+
+}
+figure#legenda {
+
+    
+    position: relative;
+    width: 1000px;
+
+}
+figure#legenda img{
+
+    width: 50%;
+    height: 50%;
+    border: 4px solid rgb(253, 190, 229);
+}
+figure#legenda figcaption#legenda-img
+{
+    
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 1px 5px rgb(211, 11, 230);
+    background-color: rgba(0, 0, 0, 0.555);
+    width: 51%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    transition: opacity 1s;
+
+}
+figure#legenda figcaption#legenda-img h2{
+
+    font-size: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 100px;
+}
+figure#legenda:hover figcaption#legenda-img{
+
+    opacity: 1;
+}
+section#receita{
+
+    display: inline-block;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 51%;
+    height: 100%;
+    padding: 10px;
+    left: 30px;
+}
+section#receita h2{
+
+    font-size: 40px;
+   
+}
+section#receita h3{
+
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+section#receita li{
+
+    font-size: 20px;
+    font-family: font-family: 'Roboto', sans-serif;;
+}
+section#receita p{
+
+    text-transform: uppercase;
+    text-shadow: 0px 0px 9px rgb(245, 23, 171);
+}
+section#receita a{
+
+    text-decoration:none;
+    font-size: arial;
+    color: rgb(255, 0, 0);
+
+}
+footer#rodape{
+
+    width: 1332px;
+    background-color: rgb(199, 15, 255);
+    height: 70px;
+
+}
+footer#rodape{
+
+    display: block;
+}
+footer#rodape ul{
+
+    list-style: none;
+    position: absolute;
+    left: 500px;
+}
+footer#rodape li{
+
+    display: inline-block;
+    padding: ;
+    margin: 2px;
+}
+footer#rodape a{
+
+    text-decoration: none;
+    color: black;
+}
+footer#rodape h4{
+
+    display:block;
+    position: absolute;
+    left: 549px;
+    top: 1769px;
+}
